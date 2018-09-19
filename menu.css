@@ -8,8 +8,6 @@ body{
 	background-color:#FFFFFF;
 }
 
-
-
 .saudacao{
 	display:flex;
 	justify-content: center;
@@ -63,20 +61,34 @@ img{
 		width: 50%;
 		height: 100%;
 	}
+
 	a{
 		display: flex;
 		justify-content: center;
+		color:#FFFFFF;
 	}
 
-	
 	.saudacao{
 		font-size: 2rem;
 		text-align: center;
 		align-self: center;
 	}
+	
 	.lista{
-        font-size: 1rem;
+        font-size: 2rem;
+        background-color: rgb(145,170,255);
+		display:flex;
+        position:fixed;
+		visibility: visible;
+        top:0;
+        height:100%;
+        width:80%;
+        transition: left .5s;
+        left:-81%;
+        flex-direction: column;
+        justify-content: space-around;
     }
+
 	.rotulo{
 		font-size: 1.2rem;
 	}	
@@ -84,6 +96,7 @@ img{
 	.rotlis{
 		margin: 1.1rem;
 	}
+
 	.logo{
 		grid-template-rows:20% 20% 20% 20% 20%; 
 		display:grid;
@@ -91,6 +104,10 @@ img{
 		grid-row-start: 1;
 
 	}
-	
-	}
+
+	.rotulo:hover + .lista{
+		opacity: 1;
+        visibility: visible;
+        left:0;
+	} 
 }
