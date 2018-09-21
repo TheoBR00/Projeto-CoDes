@@ -34,7 +34,7 @@ body{
 }
 
 .pai{
-	display: grid;
+	display: flex;
 	grid-template-rows: 1fr 1fr ;
 	grid-template-columns: repeat(5,1fr);
 }
@@ -48,7 +48,7 @@ body{
 }
 
 @media (max-width: 360px){
-	
+
 
 	a{
 		display: flex;
@@ -86,5 +86,19 @@ body{
 		justify-content: center;
 		grid-row-start: 1;
 
+	}
+
+	.pai{
+		display: grid;
+		justify-content: center;
+		grid-template-columns:100%;
+		grid-column-start: 1;
+
+	}
+
+	.filho{
+		justify-content: center;
+		max-width: 100%;
+		margin-bottom: 0.5rem;
 	}
 }
