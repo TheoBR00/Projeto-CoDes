@@ -1,0 +1,90 @@
+body{
+	background-color: rgb(96,178,28);
+}
+
+.logo{
+	display: flex;
+	justify-content: space-between;
+	background-color: #FFFFFF;
+}
+	
+
+.titulo{
+	font-size:3rem;
+	margin-top:2rem;
+	margin-bottom: 2rem;
+	font-family: 'Roboto Slab', serif;
+
+}
+
+.container{
+	display:block;
+	margin-top:3rem;
+	margin-bottom:3rem;
+}
+
+.subtitulo{
+	font-size: 2rem;
+	font-family: 'Roboto Slab', serif;
+}
+
+.descricao{
+	font-size: 1rem;
+	font-family: 'Alike', serif;
+}
+
+.pai{
+	display: grid;
+	grid-template-rows: 1fr 1fr ;
+	grid-template-columns: repeat(5,1fr);
+}
+
+.filho{
+	max-width: 100%;
+}
+
+.logo img{
+	width:100%;
+}
+
+@media (max-width: 360px){
+	
+
+	a{
+		display: flex;
+		justify-content: center;
+	}
+
+	.logo img{
+		display: flex;
+		align-items:center;
+		width: 50%;
+		height: 100%;
+	}
+	.titulo{
+		display: flex;
+		justify-content: center;
+		text-align: center;
+		font-size:1.5rem;
+		margin-top:3rem;
+		font-weight: bold;
+	}
+	
+	.subtitulo{
+		font-size:1.4rem;
+		margin:0.1rem;
+	}
+
+	.descricao{
+		font-size:0.9rem;
+		margin:0.1rem;
+	}
+
+	.logo{
+		grid-template-rows:25% 25% 25% 25% ; 
+		display:grid;
+		justify-content: center;
+		grid-row-start: 1;
+
+	}
+}
