@@ -16,10 +16,10 @@ body{
 	font-family: 'Roboto Slab', serif;
 }
 
-.todos-rotlis{
+/*.todos-rotlis{
 	display:grid;
 	grid-template-columns: 1fr 1fr;
-}
+}*/
 
 .rotlis{
 	display:block;
