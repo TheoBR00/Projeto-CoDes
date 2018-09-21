@@ -74,6 +74,10 @@ img{
 		align-self: center;
 	}
 	
+	.todos-rotlis{
+		display:block;
+	}
+
 	.lista{
         font-size: 2rem;
         background-color: rgb(145,170,255);
@@ -94,7 +98,7 @@ img{
 	}	
 
 	.rotlis{
-		margin: 1.1rem;
+		margin: 2rem;
 	}
 
 	.logo{
