@@ -109,7 +109,8 @@ img{
 
 	}
 
-	.rotulo:hover + .lista{
+	.rotulo:hover + .lista,
+	.rotulo:focus + .lista{
 		opacity: 1;
         visibility: visible;
         left:0;
