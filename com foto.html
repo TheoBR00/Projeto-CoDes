@@ -45,16 +45,9 @@
 		</div>
 		
 		<div class="pai">
-			<img class="filho" src="https://picsum.photos/400/300/?random" alt="Foto dos Projetos">
-			<img class="filho" src="https://picsum.photos/400/300/?random" alt="Foto dos Projetos" >
-			<img class="filho" src="https://picsum.photos/400/300/?random" alt="Foto dos Projetos">
-			<img class="filho" src="https://picsum.photos/400/300/?random" alt="Foto dos Projetos">
-			<img class="filho" src="https://picsum.photos/400/300/?random" alt="Foto dos Projetos">
-			<img class="filho" src="https://picsum.photos/400/300/?random" alt="Foto dos Projetos">
-			<img class="filho" src="https://picsum.photos/400/300/?random" alt="Foto dos Projetos">
-			<img class="filho" src="https://picsum.photos/400/300/?random" alt="Foto dos Projetos">
-			<img class="filho" src="https://picsum.photos/400/300/?random" alt="Foto dos Projetos">
-			<img class="filho" src="https://picsum.photos/400/300/?random" alt="Foto dos Projetos">
+			{{#each imagem as |imagem index|}}
+			<img class="filho" src="{{index}}: {{imagem}}" alt="Foto dos Projetos">
+			{{/each}}
 		</div>
 
 	</body>
