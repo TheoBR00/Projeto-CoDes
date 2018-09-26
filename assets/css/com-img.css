@@ -35,13 +35,18 @@ body{
 }
 
 .pai{
-	display: flex;
-	grid-template-rows: 1fr 1fr ;
-	grid-template-columns: repeat(5,1fr);
-}
+		display: grid;
+		justify-content: center;
+		grid-template-columns:100%;
+		grid-column-start: 1;
 
+}
 .filho{
-	max-width: 100%;
+
+		justify-content: flex-end;
+		width: 100%;
+		max-width: 100%;
+		margin-bottom: 3rem;
 }
 
 .logo img{
@@ -89,16 +94,10 @@ body{
 
 	}
 
-	.pai{
-		display: grid;
-		justify-content: center;
-		grid-template-columns:100%;
-		grid-column-start: 1;
-
-	}
 
 	.filho{
 		justify-content: center;
+		width: 100%;
 		max-width: 100%;
 		margin-bottom: 0.5rem;
 	}
