@@ -41,6 +41,16 @@ body{
 	border: 1px solid;
 	font-family: 'Alike', serif;
 	background-color: #FFFFFF;
+	visibility: visible;
+}
+
+.fecha{
+	visibility: hidden;
+	color:#FFFFFF;
+}
+
+.lista a{
+	margin-bottom:2rem;
 }
 
 a{
@@ -83,12 +93,11 @@ img{
         background-color: rgb(145,170,255);
 		display:flex;
         position:fixed;
-		visibility: visible;
+        visibility: hidden;
         top:0;
         height:100%;
         width:80%;
-        transition: left .5s;
-        left:-81%;
+        left:0;
         flex-direction: column;
         justify-content: space-around;
     }
@@ -101,6 +110,10 @@ img{
 		margin: 2rem;
 	}
 
+	.fecha{
+		color:#000000;
+	}
+
 	.logo{
 		grid-template-rows:20% 20% 20% 20% 20%; 
 		display:grid;
@@ -108,10 +121,4 @@ img{
 		grid-row-start: 1;
 
 	}
-
-	.rotulo:active + .lista{
-		opacity: 1;
-        visibility: visible;
-        left:0;
-	} 
 }
