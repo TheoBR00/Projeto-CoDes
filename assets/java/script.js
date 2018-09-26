@@ -29,7 +29,6 @@ document.addEventListener('DOMContentLoaded', function() {
 				break
 				}
 				
-		console.log()
 				
 
 			}
