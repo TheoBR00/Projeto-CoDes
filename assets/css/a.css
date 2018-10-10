@@ -42,7 +42,6 @@ body{
 
 }
 .filho{
-
 		justify-content: flex-end;
 		width: 100%;
 		max-width: 100%;
@@ -55,6 +54,7 @@ body{
 
 .apertar{
 	color:#000000;
+	text-decoration:none;
 }
 
 @media (max-width: 375px){

@@ -55,6 +55,7 @@ body{
 
 .apertar{
 	color:#FFFFFF;
+	text-decoration:none;
 }
 
 @media (max-width: 375px){
